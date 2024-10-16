@@ -29,10 +29,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} h-screen w-screen antialiased scroll-smooth`}
+        className={`${geistSans.variable} ${geistMono.variable} h-screen w-screen antialiased `}
       >
-        <NavMenu />
         <RenderPageLinks />
+        <NavMenu />
 
         {children}
         <Footer />

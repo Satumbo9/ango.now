@@ -4,7 +4,7 @@ import React from "react";
 import { menuLinks } from "../data/menuLinks";
 import Link from "next/link";
 import { useState, useRef } from "react";
-import Homepage from "@/app/(home)/page";
+import Homepage from "@/app/Home/page";
 
 export const SubMenu = () => {
   //   const [menuSelected, setMenuSelected] = useState<string | null>(null);

@@ -1,7 +1,7 @@
 import React from "react";
 
-const Homepage = () => {
+const Home = () => {
   return <section className="size-full bg-red-900">page</section>;
 };
 
-export default Homepage;
+export default Home;
