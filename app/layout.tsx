@@ -32,7 +32,6 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} h-screen w-screen antialiased `}
       >
         <RenderPageLinks />
-        <NavMenu />
 
         {children}
         <Footer />
